@@ -1,0 +1,38 @@
+name: chat_gpt
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_spinkit:
+  provider:
+  animated_text_kit:
+  http:
+  fluttertoast:
+  flutter_launcher_icons:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/playstore.png"
+  min_sdk_android: 21 
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/playstore.png
+
+
